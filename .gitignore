@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# The csv files to convert as well as the converted JSON
+*.csv
+postcodes.json
+colatted-postcodes.json
