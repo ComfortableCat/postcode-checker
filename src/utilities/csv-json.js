@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import readline from "node:readline";
 
-function csvToJson(csvPath, jsonName) {
+function csvToJson(csvPath, jsonName, limit = false) {
   const myInterface = readline.createInterface({
     input: fs.createReadStream(
       `/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/${csvPath}`
@@ -21,15 +21,29 @@ function csvToJson(csvPath, jsonName) {
       keys = line.split(",");
     } else {
       let values = line.split(",");
-      let objectLine = values.reduce((currentTotal, newValue, i) => {
-        if (keys[i] === "pcd" || keys[i].includes("laua")) {
-          //matches the necessary columns to their respective values and adds them to output
-          return { ...currentTotal, [keys[i]]: newValue.replaceAll(/"/g, "") }; //removes extra "s from the value
-        } else {
-          return { ...currentTotal };
-        }
-      }, {});
-      log.write(JSON.stringify(objectLine) + ",\n"); //writes the newline as json with a comma and newline afterwards
+      if (limit) {
+        let objectLine = values.reduce((currentTotal, newValue, i) => {
+          if (keys[i] === "pcd" || keys[i].includes("laua")) {
+            //matches the necessary columns to their respective values and adds them to output
+            return {
+              ...currentTotal,
+              [keys[i].includes("laua") ? "laua" : keys[i]]:
+                newValue.replaceAll(/"/g, ""),
+            }; //removes extra "s from the value
+          } else {
+            return { ...currentTotal };
+          }
+        }, {});
+        log.write(JSON.stringify(objectLine) + ",\n"); //writes the newline as json with a comma and newline afterwards
+      } else {
+        let objectLine = values.reduce((currentTotal, newValue, i) => {
+          return {
+            ...currentTotal,
+            [keys[i]]: newValue.replaceAll(/"/g, ""),
+          };
+        }, {});
+        log.write(JSON.stringify(objectLine) + ",\n"); //writes the newline as json with a comma and newline afterwards
+      }
     }
     lineno++;
   });
@@ -39,8 +53,14 @@ function csvToJson(csvPath, jsonName) {
 //   input: fs.createReadStream(`filenames.txt`),
 // });
 // myInterface.on("line", (line) => {
-//   csvToJson(`multi_csv${line}`, "colatted-postcodes.json");
+//   csvToJson(`multi_csv/${line}`, "colatted-postcodes.json", true);
 // });
 
 //* Runs on the combined file
-csvToJson("NSPL_FEB_2025_UK.csv", "postcodes.json");
+csvToJson("NSPL_FEB_2025_UK.csv", "postcodes.json", true);
+
+//* Runs on the LEP & CA file DOESNT FULLY WORK
+// csvToJson(
+//   "LEP & CA names and codes(LEP_APR_2021_NC_EN v2).csv",
+//   "LEPs-&-CAs.json"
+// );
