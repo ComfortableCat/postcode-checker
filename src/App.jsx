@@ -27,7 +27,7 @@ export default function App() {
     console.log(userInput);
     if (userInput) {
       let lauaFromPostcode;
-      if (userInput.toLocaleCompare("LS") === -1) {
+      if (userInput.localeCompare("LS") === -1) {
         lauaFromPostcode = postcodes1.find((postcode) => {
           return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
         })?.laua;
