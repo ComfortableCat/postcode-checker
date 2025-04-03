@@ -1,4 +1,6 @@
-import postcodes from "./utilities/postcodes.json";
+// import postcodes from "./utilities/postcodes.json";
+import postcodes1 from "./utilities/postcodes1.json";
+import postcodes2 from "./utilities/postcodes2.json";
 import lcs from "./utilities/LEPs-&-CAs(1).json";
 import { useState } from "react";
 import AuthorityDetails from "./components/AuthorityDetails";
@@ -7,7 +9,7 @@ export default function App() {
   const [valid, setValid] = useState({});
 
   console.log(valid);
-  const pcdList = postcodes;
+
   const lepsCAs = lcs;
   // console.log(pcdList[0].pcd);
   // console.log(lepsCAs[0]);
@@ -24,9 +26,16 @@ export default function App() {
       .toUpperCase(); //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
     console.log(userInput);
     if (userInput) {
-      const lauaFromPostcode = pcdList.find((postcode) => {
-        return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
-      })?.laua;
+      let lauaFromPostcode;
+      if (userInput.toLocaleCompare("LS") === -1) {
+        lauaFromPostcode = postcodes1.find((postcode) => {
+          return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
+        })?.laua;
+      } else {
+        lauaFromPostcode = postcodes2.find((postcode) => {
+          return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
+        })?.laua;
+      }
 
       if (lauaFromPostcode === undefined) {
         //doesn't exist
