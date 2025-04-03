@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import readline from "node:readline";
 
-function csvToJson(csvPath, jsonName, limit = false) {
+function csvToJson(csvPath, jsonName, limit = false, keys) {
   const myInterface = readline.createInterface({
     input: fs.createReadStream(`${csvPath}`),
   });
@@ -11,12 +11,13 @@ function csvToJson(csvPath, jsonName, limit = false) {
   //Creates a write stream for appending new lines to jsonName
 
   let lineno = 0;
-  let keys = [];
 
   myInterface.on("line", (line) => {
     if (lineno === 0) {
       //gets the column names as an array
-      keys = line.split(",");
+      if (keys === undefined) {
+        keys = line.split(",");
+      }
     } else {
       let values = line.split(",");
       if (limit) {
@@ -55,14 +56,16 @@ function csvToJson(csvPath, jsonName, limit = false) {
 // });
 
 //* Runs on the combined file
-csvToJson(
-  "/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/NSPL_FEB_2025_UK.csv",
-  "postcodes.json",
-  true
-);
+// csvToJson(
+//   "/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/NSPL_FEB_2025_UK.csv",
+//   "postcodes.json",
+//   true
+// );
 
 //* Runs on the LEP & CA file DOESNT FULLY WORK
-// csvToJson(
-//   "/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/LEP & CA names and codes(LEP_APR_2021_NC_EN v2).csv",
-//   "LEPs-&-CAs.json"
-// );
+csvToJson(
+  "/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/LEP & CA names and codes(LEP_APR_2021_NC_EN v2) (1).csv",
+  "LEPs-&-CAs(1).json",
+  false,
+  ["LEPCA", "DistrictUnitary", "laua"]
+);
