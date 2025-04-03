@@ -1,0 +1,1808 @@
+[
+  {
+    "LEPCA": "Berkshire Thames Valley LEP",
+    "DistrictUnitary": "Bracknell Forest",
+    "laua": "E06000036",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Berkshire Thames Valley LEP",
+    "DistrictUnitary": "Reading",
+    "laua": "E06000038",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Berkshire Thames Valley LEP",
+    "DistrictUnitary": "Windsor and Maidenhead",
+    "laua": "E06000040",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Berkshire Thames Valley LEP",
+    "DistrictUnitary": "Slough",
+    "laua": "E06000039",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Berkshire Thames Valley LEP",
+    "DistrictUnitary": "Wokingham",
+    "laua": "E06000041",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Berkshire Thames Valley LEP",
+    "DistrictUnitary": "West Berkshire",
+    "laua": "E06000037",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Buckinghamshire Thames Valley LEP",
+    "DistrictUnitary": "Buckinghamshire",
+    "laua": "E06000060",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cambridgeshire & Peterborough CA",
+    "DistrictUnitary": "Cambridge",
+    "laua": "E07000008",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cambridgeshire & Peterborough CA",
+    "DistrictUnitary": "Peterborough",
+    "laua": "E06000031",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cambridgeshire & Peterborough CA",
+    "DistrictUnitary": "Huntingdonshire",
+    "laua": "E07000011",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cambridgeshire & Peterborough CA",
+    "DistrictUnitary": "Fenland",
+    "laua": "E07000010",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cambridgeshire & Peterborough CA",
+    "DistrictUnitary": "East Cambridgeshire",
+    "laua": "E07000009",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cambridgeshire & Peterborough CA",
+    "DistrictUnitary": "Rutland",
+    "laua": "E06000017",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cambridgeshire & Peterborough CA",
+    "DistrictUnitary": "South Cambridgeshire",
+    "laua": "E07000012",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cheshire and Warrington LEP",
+    "DistrictUnitary": "Cheshire West and Chester",
+    "laua": "E06000050",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cheshire and Warrington LEP",
+    "DistrictUnitary": "Warrington",
+    "laua": "E06000007",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cheshire and Warrington LEP",
+    "DistrictUnitary": "Cheshire East",
+    "laua": "E06000049",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Brighton and Hove",
+    "laua": "E06000043",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Chichester",
+    "laua": "E07000225",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Mid Sussex",
+    "laua": "E07000228",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Horsham",
+    "laua": "E07000227",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Adur",
+    "laua": "E07000223",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Arun",
+    "laua": "E07000224",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Crawley",
+    "laua": "E07000226",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Worthing",
+    "laua": "E07000229",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Reigate and Banstead",
+    "laua": "E07000211",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Tandridge",
+    "laua": "E07000215",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Mole Valley",
+    "laua": "E07000210",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coast to Capital LEP",
+    "DistrictUnitary": "Epsom and Ewell",
+    "laua": "E07000208",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cornwall and Isles of Scilly LEP",
+    "DistrictUnitary": "Cornwall",
+    "laua": "E06000052",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cornwall and Isles of Scilly LEP",
+    "DistrictUnitary": "Isles of Scilly",
+    "laua": "E06000053",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coventry and Warwickshire LEP",
+    "DistrictUnitary": "Warwick",
+    "laua": "E07000222",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coventry and Warwickshire LEP",
+    "DistrictUnitary": "Stratford-on-Avon",
+    "laua": "E07000221",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coventry and Warwickshire LEP",
+    "DistrictUnitary": "North Warwickshire",
+    "laua": "E07000218",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coventry and Warwickshire LEP",
+    "DistrictUnitary": "Nuneaton and Bedworth",
+    "laua": "E07000219",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coventry and Warwickshire LEP",
+    "DistrictUnitary": "Rugby",
+    "laua": "E07000220",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Coventry and Warwickshire LEP",
+    "DistrictUnitary": "Redditch",
+    "laua": "E07000236",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cumbria LEP",
+    "DistrictUnitary": "Cumberland",
+    "laua": "E06000063",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Cumbria LEP",
+    "DistrictUnitary": "Westmorland and Furness",
+    "laua": "E06000064",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Derby",
+    "DistrictUnitary": " Derbyshire",
+    "laua": " Nottingham and Nottinghamshire LEP",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Dorset LEP",
+    "DistrictUnitary": "Bournemouth",
+    "laua": " Christchurch and Poole",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Dorset LEP",
+    "DistrictUnitary": "Dorset",
+    "laua": "E06000059",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Basingstoke and Deane",
+    "laua": "E07000084",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Hart",
+    "laua": "E07000089",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Rushmoor",
+    "laua": "E07000092",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Surrey Heath",
+    "laua": "E07000214",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Test Valley",
+    "laua": "E07000093",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Winchester",
+    "laua": "E07000094",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "East Hampshire",
+    "laua": "E07000085",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Woking",
+    "laua": "E07000217",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Guildford",
+    "laua": "E07000209",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Waverley",
+    "laua": "E07000216",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Runnymede",
+    "laua": "E07000212",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Spelthorne",
+    "laua": "E07000213",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Enterprise M3 LEP",
+    "DistrictUnitary": "Elmbridge",
+    "laua": "E07000207",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Gloucestershire LEP",
+    "DistrictUnitary": "Cheltenham",
+    "laua": "E07000078",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Gloucestershire LEP",
+    "DistrictUnitary": "Cotswold",
+    "laua": "E07000079",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Gloucestershire LEP",
+    "DistrictUnitary": "Forest of Dean",
+    "laua": "E07000080",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Gloucestershire LEP",
+    "DistrictUnitary": "Gloucester",
+    "laua": "E07000081",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Gloucestershire LEP",
+    "DistrictUnitary": "Stroud",
+    "laua": "E07000082",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Gloucestershire LEP",
+    "DistrictUnitary": "Tewkesbury",
+    "laua": "E07000083",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Birmingham and Solihull LEP",
+    "DistrictUnitary": "East Staffordshire",
+    "laua": "E07000193",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Birmingham and Solihull LEP",
+    "DistrictUnitary": "Lichfield",
+    "laua": "E07000194",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Birmingham and Solihull LEP",
+    "DistrictUnitary": "Cannock Chase",
+    "laua": "E07000192",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Birmingham and Solihull LEP",
+    "DistrictUnitary": "Tamworth",
+    "laua": "E07000199",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Birmingham and Solihull LEP",
+    "DistrictUnitary": "Bromsgrove",
+    "laua": "E07000234",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Birmingham and Solihull LEP",
+    "DistrictUnitary": "Wyre Forest",
+    "laua": "E07000239",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "West Lindsey",
+    "laua": "E08000001",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "Lincoln",
+    "laua": "E07000142",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "East Lindsey",
+    "laua": "E07000138",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "North Kesteven",
+    "laua": "E07000137",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "Boston",
+    "laua": "E07000139",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "South Kesteven",
+    "laua": "E07000136",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "South Holland",
+    "laua": "E07000141",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "North Lincolnshire",
+    "laua": "E07000140",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "North East Lincolnshire",
+    "laua": "E06000013",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Lincolnshire CA",
+    "DistrictUnitary": "Bolton",
+    "laua": "E06000012",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Bury",
+    "laua": "E08000002",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Manchester",
+    "laua": "E08000003",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Oldham",
+    "laua": "E08000004",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Rochdale",
+    "laua": "E08000005",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Salford",
+    "laua": "E08000006",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Stockport",
+    "laua": "E08000007",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Tameside",
+    "laua": "E08000008",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Trafford",
+    "laua": "E08000009",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Greater Manchester CA",
+    "DistrictUnitary": "Wigan",
+    "laua": "E08000010",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "Torridge",
+    "laua": "E07000046",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "West Devon",
+    "laua": "E07000047",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "South Hams",
+    "laua": "E07000044",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "Teignbridge",
+    "laua": "E07000045",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "Exeter",
+    "laua": "E07000041",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "East Devon",
+    "laua": "E07000040",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "Mid Devon",
+    "laua": "E07000042",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "North Devon",
+    "laua": "E07000043",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "Plymouth",
+    "laua": "E06000026",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "Somerset",
+    "laua": "E06000066",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Heart of the South West LEP",
+    "DistrictUnitary": "Torbay",
+    "laua": "E06000027",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "Broxbourne",
+    "laua": "E07000095",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "Dacorum",
+    "laua": "E07000096",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "East Hertfordshire",
+    "laua": "E07000242",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "Hertsmere",
+    "laua": "E07000098",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "North Hertfordshire",
+    "laua": "E07000099",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "St Albans",
+    "laua": "E07000240",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "Stevenage",
+    "laua": "E07000243",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "Three Rivers",
+    "laua": "E07000102",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "Watford",
+    "laua": "E07000103",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hertfordshire LEP",
+    "DistrictUnitary": "Welwyn Hatfield",
+    "laua": "E07000241",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hull and East Riding LEP",
+    "DistrictUnitary": "East Riding of Yorkshire",
+    "laua": "E06000011",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Hull and East Riding LEP",
+    "DistrictUnitary": "Kingston upon Hull",
+    "laua": " city of",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Blackpool",
+    "laua": "E06000009",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Burnley",
+    "laua": "E07000117",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Chorley",
+    "laua": "E07000118",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Fylde",
+    "laua": "E07000119",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Hyndburn",
+    "laua": "E07000120",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Lancaster",
+    "laua": "E07000121",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Pendle",
+    "laua": "E07000122",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Preston",
+    "laua": "E07000123",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Ribble Valley",
+    "laua": "E07000124",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Rossendale",
+    "laua": "E07000125",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "South Ribble",
+    "laua": "E07000126",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "West Lancashire",
+    "laua": "E07000127",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Wyre",
+    "laua": "E07000128",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Lancashire LEP",
+    "DistrictUnitary": "Blackburn with Darwen",
+    "laua": "E06000008",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "Blaby",
+    "laua": "E07000129",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "Charnwood",
+    "laua": "E07000130",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "Harborough",
+    "laua": "E07000131",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "Hinckley and Bosworth",
+    "laua": "E07000132",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "Leicester",
+    "laua": "E06000016",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "Melton",
+    "laua": "E07000133",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "North West Leicestershire",
+    "laua": "E07000134",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Leicester and Leicestershire LEP",
+    "DistrictUnitary": "Oadby and Wigston",
+    "laua": "E07000135",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Liverpool City Region CA",
+    "DistrictUnitary": "Halton",
+    "laua": "E06000006",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Liverpool City Region CA",
+    "DistrictUnitary": "Knowsley",
+    "laua": "E08000011",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Liverpool City Region CA",
+    "DistrictUnitary": "Liverpool",
+    "laua": "E08000012",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Liverpool City Region CA",
+    "DistrictUnitary": "Sefton",
+    "laua": "E08000014",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Liverpool City Region CA",
+    "DistrictUnitary": "St. Helens",
+    "laua": "E08000013",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Liverpool City Region CA",
+    "DistrictUnitary": "Wirral",
+    "laua": "E08000015",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Barking and Dagenham",
+    "laua": "E09000002",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Barnet",
+    "laua": "E09000003",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Bexley",
+    "laua": "E09000004",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Brent",
+    "laua": "E09000005",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Bromley",
+    "laua": "E09000006",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Camden",
+    "laua": "E09000007",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "City of London",
+    "laua": "E09000001",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Croydon",
+    "laua": "E09000008",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Ealing",
+    "laua": "E09000009",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Enfield",
+    "laua": "E09000010",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Greenwich",
+    "laua": "E09000011",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Hackney",
+    "laua": "E09000012",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Hammersmith and Fulham",
+    "laua": "E09000013",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Haringey",
+    "laua": "E09000014",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Harrow",
+    "laua": "E09000015",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Havering",
+    "laua": "E09000016",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Hillingdon",
+    "laua": "E09000017",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Hounslow",
+    "laua": "E09000018",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Islington",
+    "laua": "E09000019",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Kensington and Chelsea",
+    "laua": "E09000020",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Kingston upon Thames",
+    "laua": "E09000021",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Lambeth",
+    "laua": "E09000022",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Lewisham",
+    "laua": "E09000023",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Merton",
+    "laua": "E09000024",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Newham",
+    "laua": "E09000025",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Redbridge",
+    "laua": "E09000026",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Richmond upon Thames",
+    "laua": "E09000027",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Southwark",
+    "laua": "E09000028",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Sutton",
+    "laua": "E09000029",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Tower Hamlets",
+    "laua": "E09000030",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Waltham Forest",
+    "laua": "E09000031",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Wandsworth",
+    "laua": "E09000032",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "London LEP",
+    "DistrictUnitary": "Westminster",
+    "laua": "E09000033",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "Babergh",
+    "laua": "E07000200",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "Broadland",
+    "laua": "E07000144",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "Great Yarmouth",
+    "laua": "E07000145",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "King's Lynn and West Norfolk",
+    "laua": "E07000146",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "North Norfolk",
+    "laua": "E07000147",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "West Suffolk",
+    "laua": "E07000245",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "East Suffolk",
+    "laua": "E07000244",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "Breckland",
+    "laua": "E07000143",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "Ipswich",
+    "laua": "E07000202",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "Mid Suffolk",
+    "laua": "E07000203",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "South Norfolk",
+    "laua": "E07000149",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "New Anglia LEP",
+    "DistrictUnitary": "Norwich",
+    "laua": "E07000148",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "North East CA",
+    "DistrictUnitary": "County Durham",
+    "laua": "E06000047",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "North East CA",
+    "DistrictUnitary": "Gateshead",
+    "laua": "E08000037",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "North East CA",
+    "DistrictUnitary": "Newcastle upon Tyne",
+    "laua": "E08000021",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "North East CA",
+    "DistrictUnitary": "North Tyneside",
+    "laua": "E08000022",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "North East CA",
+    "DistrictUnitary": "Northumberland",
+    "laua": "E06000057",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "North East CA",
+    "DistrictUnitary": "South Tyneside",
+    "laua": "E08000023",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "North East CA",
+    "DistrictUnitary": "Sunderland",
+    "laua": "E08000024",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Oxfordshire LEP",
+    "DistrictUnitary": "Oxford",
+    "laua": "E07000178",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Oxfordshire LEP",
+    "DistrictUnitary": "Cherwell",
+    "laua": "E07000177",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Oxfordshire LEP",
+    "DistrictUnitary": "West Oxfordshire",
+    "laua": "E07000181",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Oxfordshire LEP",
+    "DistrictUnitary": "Vale of White Horse",
+    "laua": "E07000180",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Oxfordshire LEP",
+    "DistrictUnitary": "South Oxfordshire",
+    "laua": "E07000179",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "Eastleigh",
+    "laua": "E07000086",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "Fareham",
+    "laua": "E07000087",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "Gosport",
+    "laua": "E07000088",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "Havant",
+    "laua": "E07000090",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "Isle of Wight",
+    "laua": "E06000046",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "New Forest",
+    "laua": "E07000091",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "Portsmouth",
+    "laua": "E06000044",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Solent LEP",
+    "DistrictUnitary": "Southampton",
+    "laua": "E06000045",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Basildon",
+    "laua": "E07000066",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Braintree",
+    "laua": "E07000067",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Brentwood",
+    "laua": "E07000068",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Castle Point",
+    "laua": "E07000069",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Chelmsford",
+    "laua": "E07000070",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Colchester",
+    "laua": "E07000071",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Epping Forest",
+    "laua": "E07000072",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Harlow",
+    "laua": "E07000073",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Maldon",
+    "laua": "E07000074",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Rochford",
+    "laua": "E07000075",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Southend-on-Sea",
+    "laua": "E06000033",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Tendring",
+    "laua": "E07000076",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Thurrock",
+    "laua": "E06000034",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Uttlesford",
+    "laua": "E07000077",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Ashford",
+    "laua": "E07000105",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Canterbury",
+    "laua": "E07000106",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Dartford",
+    "laua": "E07000107",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Dover",
+    "laua": "E07000108",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Gravesham",
+    "laua": "E07000109",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Maidstone",
+    "laua": "E07000110",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Medway",
+    "laua": "E06000035",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Sevenoaks",
+    "laua": "E07000111",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Shepway",
+    "laua": "E07000112",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Swale",
+    "laua": "E07000113",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Thanet",
+    "laua": "E07000114",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Tonbridge and Malling",
+    "laua": "E07000115",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Tunbridge Wells",
+    "laua": "E07000116",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Hastings",
+    "laua": "E07000062",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Rother",
+    "laua": "E07000064",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Wealden",
+    "laua": "E07000065",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Eastbourne",
+    "laua": "E07000061",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East LEP",
+    "DistrictUnitary": "Lewes",
+    "laua": "E07000063",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East Midlands LEP",
+    "DistrictUnitary": "Bedford",
+    "laua": "E06000055",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East Midlands LEP",
+    "DistrictUnitary": "Central Bedfordshire",
+    "laua": "E06000056",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East Midlands LEP",
+    "DistrictUnitary": "Luton",
+    "laua": "E06000032",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East Midlands LEP",
+    "DistrictUnitary": "Milton Keynes",
+    "laua": "E06000042",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East Midlands LEP",
+    "DistrictUnitary": "West Northamptonshire",
+    "laua": "E06000062",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South East Midlands LEP",
+    "DistrictUnitary": "North Northamptonshire",
+    "laua": "E06000061",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South Yorkshire CA",
+    "DistrictUnitary": "Rotherham",
+    "laua": "E08000018",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South Yorkshire CA",
+    "DistrictUnitary": "Sheffield",
+    "laua": "E08000019",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South Yorkshire CA",
+    "DistrictUnitary": "Barnsley",
+    "laua": "E08000016",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "South Yorkshire CA",
+    "DistrictUnitary": "Doncaster",
+    "laua": "E08000017",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "Staffordshire Moorlands",
+    "laua": "E07000198",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "Stoke-on-trent",
+    "laua": "E06000021",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "Stafford",
+    "laua": "E07000197",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "South Staffordshire",
+    "laua": "E07000196",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "Cannock Chase",
+    "laua": "E07000192",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "Newcastle-under-Lyme",
+    "laua": "E07000195",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "East Staffordshire",
+    "laua": "E07000193",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "Lichfield",
+    "laua": "E07000194",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Stoke-on-Trent and Staffordshire LEP",
+    "DistrictUnitary": "Tamworth",
+    "laua": "E07000199",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Swindon and Wiltshire LEP",
+    "DistrictUnitary": "Swindon",
+    "laua": "E06000030",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Swindon and Wiltshire LEP",
+    "DistrictUnitary": "Wiltshire",
+    "laua": "E06000054",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Tees Valley CA",
+    "DistrictUnitary": "Darlington",
+    "laua": "E06000005",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Tees Valley CA",
+    "DistrictUnitary": "Hartlepool",
+    "laua": "E06000001",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Tees Valley CA",
+    "DistrictUnitary": "Middlesbrough",
+    "laua": "E06000002",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Tees Valley CA",
+    "DistrictUnitary": "Redcar and Cleveland",
+    "laua": "E06000003",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Tees Valley CA",
+    "DistrictUnitary": "Stockton-on-Tees",
+    "laua": "E06000004",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "The Marches LEP",
+    "DistrictUnitary": "Telford and Wrekin",
+    "laua": "E06000020",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "The Marches LEP",
+    "DistrictUnitary": "Shropshire",
+    "laua": "E06000051",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "The Marches LEP",
+    "DistrictUnitary": "Herefordshire",
+    "laua": " County of",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Midlands CA",
+    "DistrictUnitary": "Wolverhampton",
+    "laua": "E08000031",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Midlands CA",
+    "DistrictUnitary": "Walsall",
+    "laua": "E08000030",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Midlands CA",
+    "DistrictUnitary": "Sandwell",
+    "laua": "E08000028",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Midlands CA",
+    "DistrictUnitary": "Dudley",
+    "laua": "E08000027",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Midlands CA",
+    "DistrictUnitary": "Birmingham",
+    "laua": "E08000025",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Midlands CA",
+    "DistrictUnitary": "Solihull",
+    "laua": "E08000029",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Midlands CA",
+    "DistrictUnitary": "Coventry",
+    "laua": "E08000026",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West of England CA",
+    "DistrictUnitary": "South Gloucestershire",
+    "laua": "E06000025",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West of England CA",
+    "DistrictUnitary": "Bristol",
+    "laua": " City of",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West of England CA",
+    "DistrictUnitary": "Bath and North East Somerset",
+    "laua": "E06000022",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West of England CA",
+    "DistrictUnitary": "North Somerset",
+    "laua": "E06000024",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Yorkshire CA",
+    "DistrictUnitary": "Bradford",
+    "laua": "E08000032",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Yorkshire CA",
+    "DistrictUnitary": "Calderdale",
+    "laua": "E08000033",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Yorkshire CA",
+    "DistrictUnitary": "Kirklees",
+    "laua": "E08000034",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Yorkshire CA",
+    "DistrictUnitary": "Leeds",
+    "laua": "E08000035",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "West Yorkshire CA",
+    "DistrictUnitary": "Wakefield",
+    "laua": "E08000036",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Worcestershire LEP",
+    "DistrictUnitary": "Wyre Forest",
+    "laua": "E07000239",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Worcestershire LEP",
+    "DistrictUnitary": "Malvern Hills",
+    "laua": "E07000235",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Worcestershire LEP",
+    "DistrictUnitary": "Worcester",
+    "laua": "E07000237",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Worcestershire LEP",
+    "DistrictUnitary": "Wychavon",
+    "laua": "E07000238",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "Worcestershire LEP",
+    "DistrictUnitary": "Bromsgrove",
+    "laua": "E07000234",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "York and North Yorkshire CA",
+    "DistrictUnitary": "York",
+    "laua": "E06000014",
+    "undefined": ""
+  },
+  {
+    "LEPCA": "York and North Yorkshire CA",
+    "DistrictUnitary": "North Yorkshire",
+    "laua": "E06000065",
+    "undefined": ""
+  }
+]
