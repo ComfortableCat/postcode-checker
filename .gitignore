@@ -28,3 +28,4 @@ dist-ssr
 *.csv
 postcodes.json
 colatted-postcodes.json
+LEPs-&-CAs.json
