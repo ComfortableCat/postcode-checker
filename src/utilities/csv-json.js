@@ -3,9 +3,7 @@ import readline from "node:readline";
 
 function csvToJson(csvPath, jsonName, limit = false) {
   const myInterface = readline.createInterface({
-    input: fs.createReadStream(
-      `/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/${csvPath}`
-    ),
+    input: fs.createReadStream(`${csvPath}`),
   });
   //Opens a read stream for csv file and reads it line by line
 
@@ -53,14 +51,18 @@ function csvToJson(csvPath, jsonName, limit = false) {
 //   input: fs.createReadStream(`filenames.txt`),
 // });
 // myInterface.on("line", (line) => {
-//   csvToJson(`multi_csv/${line}`, "colatted-postcodes.json", true);
+//   csvToJson(`/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/multi_csv/${line}`, "colatted-postcodes.json", true);
 // });
 
 //* Runs on the combined file
-csvToJson("NSPL_FEB_2025_UK.csv", "postcodes.json", true);
+csvToJson(
+  "/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/NSPL_FEB_2025_UK.csv",
+  "postcodes.json",
+  true
+);
 
 //* Runs on the LEP & CA file DOESNT FULLY WORK
 // csvToJson(
-//   "LEP & CA names and codes(LEP_APR_2021_NC_EN v2).csv",
+//   "/Users/bertieraffle/Documents/projects/company/postcode-checker/src/assets/LEP & CA names and codes(LEP_APR_2021_NC_EN v2).csv",
 //   "LEPs-&-CAs.json"
 // );
