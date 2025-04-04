@@ -1,9 +1,11 @@
 // import postcodes from "./utilities/postcodes.json";
+import "./style.css";
 import postcodes1 from "./utilities/postcodes1.json";
 import postcodes2 from "./utilities/postcodes2.json";
 import lcs from "./utilities/LEPs-&-CAs(1).json";
 import { useState } from "react";
 import AuthorityDetails from "./components/AuthorityDetails";
+import Info from "./components/Info";
 
 export default function App() {
   const [valid, setValid] = useState({});
@@ -50,24 +52,35 @@ export default function App() {
         const found = lepsCAs.filter((lepCA) => {
           return lauaFromPostcode === lepCA.laua;
         });
-        setValid({ found, lauaFromPostcode });
+        setValid({ found, lauaFromPostcode, userInput });
       }
     } else {
       setValid({ passCheck: false });
     }
   }
   return (
-    <>
-      {valid.passCheck === false && <p>postcodes must be valid</p>}
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="postcode">Enter postcode:</label>
-        <input id="postcode" name="postcode"></input>
-        <button type="submit">Search</button>
+    <main className="w-full h-[100vh] flex mt-12 flex-col items-center">
+      <Info />
+      <form
+        onSubmit={handleSubmit}
+        className="rounded-2xl m-4 flex flex-row justify-around px-1.5 py-0.5 bg-[rgba(43,216,114,1)]"
+      >
+        <div>
+          <label htmlFor="postcode">Enter postcode:</label>
+          <input
+            id="postcode"
+            name="postcode"
+            placeholder="Postcode ..."
+            className="rounded-xl px-2 py-1 m-1 bg-white placeholder:text-gray-500 text-[rgba(63,16,70,1)]"
+          ></input>
+          <button type="submit">Search</button>
+        </div>
       </form>
+      {valid.passCheck === false && (
+        <p className="text-red-400">Postcode must be valid</p>
+      )}
       {valid.found && valid.found.length >= 1 ? (
-        valid.found.map((authority, i) => {
-          return <AuthorityDetails authority={authority} key={i} />;
-        })
+        <AuthorityDetails valid={valid} />
       ) : valid.lauaFromPostcode !== undefined ? (
         valid.found ? (
           <p>This postcode is not funded</p>
@@ -77,6 +90,6 @@ export default function App() {
       ) : (
         valid.length >= 1 && <p>This postcode is not in our data</p>
       )}
-    </>
+    </main>
   );
 }
