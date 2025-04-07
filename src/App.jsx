@@ -21,12 +21,12 @@ export default function App() {
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData);
     console.log(data);
-    const regex = /^[A-PR-UWYZ]([0-9]{1,2}|([A-HK-Y][0-9]([0-9]|[A-HJKPSTUW])?)|[0-9][A-HJKPSTUW])[0-9][ABD-HJLNP-UW-Z]{2}$/;
+    const regex = /^[A-Z]([0-9]{1,2}|([A-Z][0-9]([0-9]|[A-Z])?)|[0-9][A-Z])[0-9][A-Z]{2}$/i;
     
     const userInput = data.postcode
       .replaceAll(/\s*/g, "")
-      .toUpperCase() //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
-      .match(regex)?.[0];
+      .match(regex)?.[0].toUpperCase(); //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
+      
     console.log(userInput);
     if (userInput) {
       let lauaFromPostcode;
