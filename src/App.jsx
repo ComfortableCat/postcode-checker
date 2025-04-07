@@ -21,11 +21,12 @@ export default function App() {
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData);
     console.log(data);
-    const regex = /^[a-z]{1,2}\d{2,3}[a-z]{2}/i; //checks for the format where there is 1 or 2 letters followed by 2 or 3 numbers followed by exactly 2 letters and ignores the case of the letters //* This should match a postcode format
+    const regex = /^[A-PR-UWYZ]([0-9]{1,2}|([A-HK-Y][0-9]([0-9]|[A-HJKPSTUW])?)|[0-9][A-HJKPSTUW])[0-9][ABD-HJLNP-UW-Z]{2}$/;
+    
     const userInput = data.postcode
       .replaceAll(/\s*/g, "")
-      .match(regex)?.[0]
-      .toUpperCase(); //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
+      .toUpperCase() //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
+      .match(regex)?.[0];
     console.log(userInput);
     if (userInput) {
       let lauaFromPostcode;
