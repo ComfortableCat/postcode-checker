@@ -19,7 +19,7 @@ function csvToJson(csvPath, jsonName, limit = false, keys) {
         keys = line.split(",");
       }
     } else {
-      let values = line.split(",");
+      let values = line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
       if (limit) {
         let objectLine = values.reduce((currentTotal, newValue, i) => {
           if (keys[i] === "pcd" || keys[i].includes("laua")) {

@@ -31,14 +31,16 @@ export default function App() {
           return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
         })?.laua;
       } else {
-        lauaFromPostcode = postcodes2.find((postcode) => {
-          return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
-        })?.laua;
+        lauaFromPostcode =
+          postcodes2.find((postcode) => {
+            return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
+          })?.laua | false;
       }
 
-      if (lauaFromPostcode === undefined) {
+      if (lauaFromPostcode === false) {
         //doesn't exist
         console.log("doesn't exist", lauaFromPostcode);
+        console.log(valid);
         setValid({ lauaFromPostcode });
       } else if (lauaFromPostcode === "") {
         //doesn't have a laua
@@ -83,16 +85,21 @@ export default function App() {
       {valid.passCheck === false && (
         <p className="text-red-400">Postcode must be valid</p>
       )}
-      {valid.found && valid.found.length >= 1 ? (
-        <AuthorityDetails valid={valid} />
-      ) : valid.lauaFromPostcode !== undefined ? (
-        valid.found ? (
-          <p>This postcode is not funded</p>
+      {valid.lauaFromPostcode === false ? (
+        <p className="text-red-400">This postcode is not in our data</p>
+      ) : valid.lauaFromPostcode === "" ? (
+        <p className="text-red-400">This postcode doesn't have a laua</p>
+      ) : valid.found ? (
+        valid.found.length >= 1 ? (
+          <AuthorityDetails valid={valid} />
         ) : (
-          <p>This postcode doesn't have a laua</p>
+          <p className="text-red-400">
+            This postcode does not have any associated CA's or LEP's in our data
+            check with Rich
+          </p>
         )
       ) : (
-        valid.length >= 1 && <p>This postcode is not in our data</p>
+        <></>
       )}
     </main>
   );

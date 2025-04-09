@@ -234,105 +234,105 @@
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Derby",
+    "laua": "E06000015",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "South Derbyshire",
+    "laua": "E07000039",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Erewash",
+    "laua": "E07000036",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Amber Valley",
+    "laua": "E07000032",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Chesterfield",
+    "laua": "E07000034",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Nottingham",
+    "laua": "E06000018",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Bassetlaw",
+    "laua": "E07000171",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Newark and Sherwood",
+    "laua": "E07000175",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Mansfield",
+    "laua": "E07000174",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Gedling",
+    "laua": "E07000173",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Broxtowe",
+    "laua": "E07000172",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Ashfield",
+    "laua": "E07000170",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Rushcliffe",
+    "laua": "E07000176",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Bolsover",
+    "laua": "E07000033",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "High Peak",
+    "laua": "E07000037",
     "undefined": ""
   },
   {
-    "LEPCA": "Derby",
-    "DistrictUnitary": " Derbyshire",
-    "laua": " Nottingham and Nottinghamshire LEP",
+    "LEPCA": "Derby, Derbyshire, Nottingham and Nottinghamshire LEP",
+    "DistrictUnitary": "Derbyshire Dales",
+    "laua": "E07000035",
     "undefined": ""
   },
   {
     "LEPCA": "Dorset LEP",
-    "DistrictUnitary": "Bournemouth",
-    "laua": " Christchurch and Poole",
+    "DistrictUnitary": "Bournemouth, Christchurch and Poole",
+    "laua": "E06000058",
     "undefined": ""
   },
   {
@@ -739,8 +739,8 @@
   },
   {
     "LEPCA": "Hull and East Riding LEP",
-    "DistrictUnitary": "Kingston upon Hull",
-    "laua": " city of",
+    "DistrictUnitary": "Kingston upon Hull, city of",
+    "laua": "E06000010",
     "undefined": ""
   },
   {
@@ -1663,8 +1663,8 @@
   },
   {
     "LEPCA": "The Marches LEP",
-    "DistrictUnitary": "Herefordshire",
-    "laua": " County of",
+    "DistrictUnitary": "Herefordshire, County of",
+    "laua": "E06000019",
     "undefined": ""
   },
   {
@@ -1717,8 +1717,8 @@
   },
   {
     "LEPCA": "West of England CA",
-    "DistrictUnitary": "Bristol",
-    "laua": " City of",
+    "DistrictUnitary": "Bristol, City of",
+    "laua": "E06000023",
     "undefined": ""
   },
   {
