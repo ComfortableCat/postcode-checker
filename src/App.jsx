@@ -1,4 +1,3 @@
-// import postcodes from "./utilities/postcodes.json";
 import "./style.css";
 import postcodes1 from "./utilities/postcodes1.json";
 import postcodes2 from "./utilities/postcodes2.json";
@@ -10,23 +9,20 @@ import Info from "./components/Info";
 export default function App() {
   const [valid, setValid] = useState({});
 
-  console.log(valid);
-
-  const lepsCAs = lcs;
-  // console.log(pcdList[0].pcd);
-  // console.log(lepsCAs[0]);
   //listen to postcode input if it is valid length search the json for the postcode
   async function handleSubmit(event) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData);
     console.log(data);
-    const regex = /^[A-Z]([0-9]{1,2}|([A-Z][0-9]([0-9]|[A-Z])?)|[0-9][A-Z])[0-9][A-Z]{2}$/i;
-    
+    const regex =
+      /^[A-Z]([0-9]{1,2}|([A-Z][0-9]([0-9]|[A-Z])?)|[0-9][A-Z])[0-9][A-Z]{2}$/i;
+
     const userInput = data.postcode
       .replaceAll(/\s*/g, "")
-      .match(regex)?.[0].toUpperCase(); //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
-      
+      .match(regex)?.[0]
+      .toUpperCase(); //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
+
     console.log(userInput);
     if (userInput) {
       let lauaFromPostcode;
@@ -50,7 +46,7 @@ export default function App() {
         setValid({ lauaFromPostcode });
       } else {
         console.log(lauaFromPostcode);
-        const found = lepsCAs.filter((lepCA) => {
+        const found = lcs.filter((lepCA) => {
           return lauaFromPostcode === lepCA.laua;
         });
         setValid({ found, lauaFromPostcode, userInput });
@@ -64,17 +60,24 @@ export default function App() {
       <Info />
       <form
         onSubmit={handleSubmit}
-        className="rounded-2xl m-4 flex flex-row justify-around px-1.5 py-0.5 bg-[rgba(43,216,114,1)]"
+        className="rounded-2xl m-4 flex flex-row justify-around px-2 py-1 bg-[rgba(43,216,114,1)] items-center gap-3"
       >
-        <div>
-          <label htmlFor="postcode">Enter postcode:</label>
+        <label htmlFor="postcode" className="flex-1/4">
+          Enter postcode:
+        </label>
+        <div className="flex flex-row">
           <input
             id="postcode"
             name="postcode"
             placeholder="Postcode ..."
-            className="rounded-xl px-2 py-1 m-1 bg-white placeholder:text-gray-500 text-[rgba(63,16,70,1)]"
+            className="rounded-l-xl px-2 py-1 bg-white flex-2/4 placeholder:text-gray-500 text-[rgba(63,16,70,1)] max-w-[212px] w-[40vw]"
           ></input>
-          <button type="submit">Search</button>
+          <button
+            type="submit"
+            className="flex-1/4 bg-[white] rounded-r-2xl pr-2 hover:cursor-pointer w-[40px] h-[40px] flex justify-center items-center"
+          >
+            <img src="/magnifying-glass.png" width={30} height={30} />
+          </button>
         </div>
       </form>
       {valid.passCheck === false && (
