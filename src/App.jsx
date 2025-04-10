@@ -24,17 +24,17 @@ export default function App() {
       .toUpperCase(); //This removes all spaces from the user input checks if it matchs the regex above and then makes the matched group uppercase
 
     console.log(userInput);
+    console.log(userInput.localeCompare("LS") === -1);
     if (userInput) {
       let lauaFromPostcode;
-      if (userInput.localeCompare("LS") === -1) {
+      if (userInput.localeCompare("LS") < 0) {
         lauaFromPostcode = postcodes1.find((postcode) => {
           return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
         })?.laua;
       } else {
-        lauaFromPostcode =
-          postcodes2.find((postcode) => {
-            return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
-          })?.laua | false;
+        lauaFromPostcode = postcodes2.find((postcode) => {
+          return postcode.pcd.replaceAll(/\s*/g, "") == userInput;
+        })?.laua;
       }
 
       if (lauaFromPostcode === false) {
